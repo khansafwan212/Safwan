@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Mohd Safwan Khan - Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Safwan</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Safwan Khan</span><br> Web Developer
+                </h1>
+
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
+
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="Mohammad Safwan Khan" class="home__profile-img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Mohammad Safwan Khan">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I am Mohd Safwan Khan</h2>
+                    <p class="about__text">I am a passionate Web Developer based in Lucknow, India. I am currently
+                        pursuing my Bachelor of Computer Applications (BCA) at Shri Ramswaroop Memorial University
+                        (Batch of 2023-2026).</p>
+                    <p class="about__text" style="margin-top: 1rem;">I specialize in building responsive, user-friendly,
+                        and highly interactive websites. My core tech stack includes HTML, CSS, JavaScript, and React. I
+                        love turning complex problems into beautiful and intuitive interface designs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">With a strong foundation in frontend development, I am capable of building
+                        modern web applications from scratch.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div><span class="skills__percentage">90%</span></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3 / Tailwind</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div><span class="skills__percentage">85%</span></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div><span class="skills__percentage">75%</span></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon'></i>
+                            <span class="skills__name">React JS</span>
+                        </div>
+                        <div class="skills__bar skills__react" style="width: 70%;"></div>
+                        <div><span class="skills__percentage">70%</span></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="Coding" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="work section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+                <a href="https://github.com/safwan-khan/ecommerce-react" target="_blank" class="work__img">
+                    <img src="assets/img/work1.jpg" alt="E-commerce App">
+                    <div class="work__content">
+                        <h3>E-commerce Store</h3>
+                        <p style="font-size: 0.8rem; opacity: 0.8;">React, Tailwind CSS</p>
+                        <span style="font-size: 0.7rem; color: var(--first-color);">View Live Project →</span>
+                    </div>
+                </a>
+                <a href="https://github.com/safwan-khan/weather-dashboard" target="_blank" class="work__img">
+                    <img src="assets/img/work2.jpg" alt="Weather Dashboard">
+                    <div class="work__content">
+                        <h3>Weather Dashboard</h3>
+                        <p style="font-size: 0.8rem; opacity: 0.8;">JavaScript, REST API</p>
+                        <span style="font-size: 0.7rem; color: var(--first-color);">View Live Project →</span>
+                    </div>
+                </a>
+                <a href="https://github.com/safwan-khan/task-manager" target="_blank" class="work__img">
+                    <img src="assets/img/work3.jpg" alt="Task Manager">
+                    <div class="work__content">
+                        <h3>Task Manager App</h3>
+                        <p style="font-size: 0.8rem; opacity: 0.8;">React, Context API</p>
+                        <span style="font-size: 0.7rem; color: var(--first-color);">View Live Project →</span>
+                    </div>
+                </a>
+                <a href="https://github.com/safwan-khan/modern-portfolio" target="_blank" class="work__img">
+                    <img src="assets/img/work4.jpg" alt="Portfolio Template">
+                    <div class="work__content">
+                        <h3>Modern Portfolio</h3>
+                        <p style="font-size: 0.8rem; opacity: 0.8;">HTML, CSS, JS</p>
+                        <span style="font-size: 0.7rem; color: var(--first-color);">View Live Project →</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="#" class="contact__form">
+                    <input type="text" placeholder="Your Name" class="contact__input">
+                    <input type="email" placeholder="Your Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Your Message"
+                        class="contact__input"></textarea>
+                    <button type="submit" class="contact__button button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Mohammad Safwan Khan</p>
+        <span class="footer__subtitle">Web Developer | Lucknow, India | BCA (2023-2026)</span>
+        <div class="footer__social">
+            <a href="https://linkedin.com/in/safwan-khan" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/safwan-khan" target="_blank" class="footer__icon"><i
+                    class='bx bxl-github'></i></a>
+            <a href="https://twitter.com/safwan-khan" target="_blank" class="footer__icon"><i
+                    class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2026 Mohd Safwan Khan. All rights reserved.</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
